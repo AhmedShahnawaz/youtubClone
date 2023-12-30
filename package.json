@@ -1,0 +1,8 @@
+{
+  "name": "youtubClone",
+  "version": "1.0.0",
+  "description": "youtub clone by chai with code",
+  "main": "index.js",
+  "author": "shahnawaz ahmed",
+  "license": "MIT"
+}

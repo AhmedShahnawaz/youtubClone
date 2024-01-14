@@ -72,9 +72,7 @@ userSchema.methods.genrateAccessToken = function () {
 }
 
 userSchema.methods.genrateRefreshToken = function () {
-    const payload = {
-        _id: this._id,
-    }
+    const payload = { _id: this._id }
     return Jwt.sign(payload, process.env.REFRESH_TOKEN_SECRET, { expiresIn: process.env.REFRESH_TOKEN_EXPIRY })
 }
 
